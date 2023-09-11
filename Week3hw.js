@@ -3,7 +3,7 @@
 const pizzaToppings = ['ham', 'cheese', 'pineapples',  '&','chicken'];
 //Create a greetCustomer function that prints a message that welcomes a guest, then informs them of the available toppings by looping over pizzaToppings (don't worry about perfect grammar here yet, i.e. "a, b, and c", see Bonus Challenge #9)
 function greetCustomer() {
- const greeting =  " Welcome to BertanBertie's our toppings are:";
+ let greeting =  " Welcome to BertanBertie's our toppings are:";
 for (let topping of pizzaToppings) {
   greeting += `${topping}`;
 }
@@ -39,7 +39,7 @@ function preparePizza([size,crust,toppings]) {
 //logs a message that the pizza is ready and repeats the order, i.e. "Order up! Here's your large thick crust pizza with x, y, z, ... Enjoy!"
 //outputs the same pizza Object that was passed in
 
-function servePizza() {
+function servePizza(pizza) {
   console.log(`Orders ready! Here's your: ${pizza.size} ${pizza.crust} crust pizza with ${pizza.toppings}. Enjoy!`);
 }
 

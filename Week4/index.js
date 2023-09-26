@@ -24,4 +24,3 @@ addMenuItem('Pupper Menu', 'Doggy Burger', 10.50)
 addMenuItem('Pupper Menu', 'Doggy Corndog', 6.50)
 addMenuItem('Appetizers', 'Doggy Corndog', 9.50)
 
-

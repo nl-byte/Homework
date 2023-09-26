@@ -1,0 +1,89 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightblue;
+    margin: 0%;
+  }
+p{
+    text-align: center;
+}
+a {
+    text-align: center;
+}
+
+  header {
+    font-family: 'Courier New', Courier, monospace;
+    color: lightblue;
+    text-align: center;
+    font-size: medium;
+  }
+  .dogcafe {
+    text-align: center;
+    color: palevioletred;
+    text-transform: uppercase;
+ }
+
+ .ourmenu{
+    text-align: center;
+    color:palevioletred;
+    text-decoration-line:underline;
+
+ }
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    align-content: center;
+}
+#firstlink {
+    text-align: center;
+}
+
+#secondlink {
+    text-align: center;
+
+}
+#bnb {
+
+    width: 150px;
+    margin: auto;
+    display: block;
+
+}
+#steaknshrimppic {
+
+    width: 200px;
+    height: 200px;
+    margin-right: 50px;
+    float: right;
+
+}
+h3 {
+    font-style: italic;
+}
+
+li {
+    font-style: oblique;
+    font-stretch: expanded;
+    font-stretch: extra-expanded;
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0cap;
+    color: beige;
+    text-align: center;
+    font-weight: 600;
+}
+
+#firstlink a {
+
+    color: blueviolet;
+    text-decoration: underline;
+}
+
+#secondlink a {
+
+    color: blueviolet;
+    text-decoration: underline;
+}
